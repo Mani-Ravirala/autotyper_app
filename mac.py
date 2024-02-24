@@ -29,4 +29,5 @@ def write():
         keyboard_controller.type(copied_text)
 
 kb.add_hotkey('alt + ctrl + v', write)
-kb.wait('esc')
+kb.wait('ctrl + win + esc')
+
